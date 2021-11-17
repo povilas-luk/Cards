@@ -121,7 +121,7 @@ class MainActivity : AppCompatActivity(), CardDataInterface {
                 imageId = R.drawable.pears,
                 imageUrl = "https://media.self.com/photos/5b6b0bd7ff2fab32610fafc2/16:9/w_4032,h_2268,c_limit/pears.jpg",
                 isLiked = SharedPrefUtil.getCardDataLiked("pears")
-            )
+                )
             )
             add(
                 CardData(
@@ -134,6 +134,18 @@ class MainActivity : AppCompatActivity(), CardDataInterface {
                     isLiked = SharedPrefUtil.getCardDataLiked("blueberries")
                 )
             )
+            add(
+                CardData(
+                    id = "grapes",
+                    title = "Grapes",
+                    descriptionShort = "Do you like grapes?...",
+                    descriptionLong = "I hope you do like grapes if you do go and buy them.",
+                    imageId = R.drawable.grapes,
+                    imageUrl = "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/766/grapes-main-1506688521.jpg",
+                    isLiked = SharedPrefUtil.getCardDataLiked("grapes")
+                )
+            )
+
         }
 
     }

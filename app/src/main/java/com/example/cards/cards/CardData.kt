@@ -1,7 +1,5 @@
 package com.example.cards.cards
 
-import java.io.Serializable
-
 data class CardData(
     val id: String = "",
     val imageId: Int = 0,

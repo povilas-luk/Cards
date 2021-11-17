@@ -125,7 +125,6 @@ class MainActivity : AppCompatActivity(), CardDataInterface {
             )
         }
 
-
     }
 
 }

@@ -1,6 +1,5 @@
 package com.example.cards.cards
 
-import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,7 +8,6 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.cards.R
-import com.squareup.picasso.Picasso
 
 class CardDataAdapter(
     private val cardDataSet: ArrayList<CardData>,
@@ -41,7 +39,7 @@ class CardDataAdapter(
 
     override fun onBindViewHolder(viewHolder: CardDataViewHolder, position: Int) {
         viewHolder.image.setImageResource(cardDataSet[position].imageId)
-/*        Picasso.get()
+        /*Picasso.get()
             .load(cardDataSet[position].imageUrl)
             .into(viewHolder.image)*/
 

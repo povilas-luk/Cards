@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Cards</string>
+    <string name="more">More</string>
+    <string name="card_item_image">Card item image</string>
+    <string name="shop">Shop</string>
+    <string name="like">Like</string>
+    <string name="liked">Liked</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

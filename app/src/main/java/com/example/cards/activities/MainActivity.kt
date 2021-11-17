@@ -123,6 +123,17 @@ class MainActivity : AppCompatActivity(), CardDataInterface {
                 isLiked = SharedPrefUtil.getCardDataLiked("pears")
             )
             )
+            add(
+                CardData(
+                    id = "blueberries",
+                    title = "Blueberries",
+                    descriptionShort = "Do you like blueberries?...",
+                    descriptionLong = "I hope you do like blueberries if you do go and buy them.",
+                    imageId = R.drawable.blueberries,
+                    imageUrl = "https://media-cldnry.s-nbcnews.com/image/upload/newscms/2021_26/1741956/blueberry-recall-kb-main-210628.jpg",
+                    isLiked = SharedPrefUtil.getCardDataLiked("blueberries")
+                )
+            )
         }
 
     }
